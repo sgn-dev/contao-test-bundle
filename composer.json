@@ -1,5 +1,5 @@
 {
-    "name": "sgnatwork/contao-test-bundle",
+    "name": "sgn-dev/contao-test-bundle",
     "type": "contao-bundle",
     "description": "Testing Development Contao 4 Bundle",
     "homepage": "https://contao.org",
@@ -8,7 +8,7 @@
         {
             "name": "Holger Neuner",
             "homepage": "https://github.com/SgnAtWork"
-        },
+        }
     ],
     "require": {
         "php": "^7.2 || ^8.0",
@@ -27,16 +27,16 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\TestBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "SgnDev\\ContaoTestBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "SgnDev\\ContaoTestBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "SgnDev\\ContaoTestBundle\\Tests\\": "tests/"
         }
     },
     "support": {
