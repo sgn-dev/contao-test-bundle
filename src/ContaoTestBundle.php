@@ -14,6 +14,6 @@ namespace Contao\SkeletonBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoSkeletonBundle extends Bundle
+class ContaoTestBundle extends Bundle
 {
 }
