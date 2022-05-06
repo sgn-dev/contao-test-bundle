@@ -38,9 +38,5 @@
         "psr-4": {
             "SgnDev\\ContaoTestBundle\\Tests\\": "tests/"
         }
-    },
-    "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
     }
 }
